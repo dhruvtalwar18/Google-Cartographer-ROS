@@ -86,12 +86,11 @@ represents the output trajectory of the Cartographer localisation package. We we
 able to obtain the coordinates of the points of the trajectory as it is generated along the
 way with respect to the map frame.
 
-<p align="center"><img src="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/QT_GPS_GUI/QT_Simulation.gif" title="Full Campus map "></p>
-<p align="center"> Fig. QT GUI GPS plotter </p>
+<p align="center"><img src="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/Images/Cartographer_localization.gif" title="Cartographer Localization on pre built map "></p>
+<p align="center"> Fig. Cartographer Localization on pre built map </p>
 <br><br><br>
 
-<p align="center"><img src="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/Images/Comparison%20of%20Actual%20Trajectory%20and%20Calculated%20Trajectory%20of%20the%20car%20in%20Rviz.PNG
-" title="Test Comparison b/w actual and calculated trajectory "></p>
+<p align="center"><img src="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/Images/Localization_2.PNG" title="Test Comparison b/w actual and calculated trajectory "></p>
 <p align="center"> Fig. Test Comparison b/w actual and calculated trajectory </p>
 <br><br><br>
 
