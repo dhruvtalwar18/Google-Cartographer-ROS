@@ -45,7 +45,7 @@ Once the script was run the respective maps and ply files were successfuly creat
 
 <b><h1>Results</h1></b>
 
-The following maps were generated after running the scripts on a <a href="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/Config_files/Lua_file_updates.docx">rosbag file </a>, which was created by the E20 vehicle going around the campus.
+The following maps were generated after running the scripts on a <a href="https://drive.google.com/drive/folders/1gcnSY-3-MtDLCSeKLohcuVjIYoow_NfD?usp=sharing">rosbag file </a>, which was created by the E20 vehicle going around the campus.
 
 The blue line shows the trajectory the vehicle took while transversing the campus roads.
 <br><br>
