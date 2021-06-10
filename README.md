@@ -64,7 +64,7 @@ Some of the other test results are as shown <br><br>
 
 
 <p align="center"><img src="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/Images/Other%20tests/output_6.bag_xray_xy_all.png" title="New Campus Area"></p>
-<p align="center"> Fig.3 Cartographer Map New Campus Area </p>
+<p align="center"> Fig.4 Cartographer Map New Campus Area </p>
 
 <br><br>
 
@@ -73,7 +73,7 @@ We stiched all the maps together to get the complete path followed by the car on
 <br><br>
 
 <p align="center"><img src="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/Images/Other%20tests/Full%20map.png" title="Full Campus map "></p>
-<p align="center"> Fig.4 Full Campus map </p>
+<p align="center"> Fig.5 Full Campus map </p>
 <br><br><br>
 
 
@@ -87,11 +87,11 @@ able to obtain the coordinates of the points of the trajectory as it is generate
 way with respect to the map frame.
 
 <p align="center"><img src="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/Images/Cartographer_localization.gif" title="Cartographer Localization on pre built map "></p>
-<p align="center"> Fig. Cartographer Localization on pre built map </p>
+<p align="center"> Fig.6 Cartographer Localization on pre built map </p>
 <br><br><br>
 
 <p align="center"><img src="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/Images/Localization_2.PNG" title="Test Comparison b/w actual and calculated trajectory "></p>
-<p align="center"> Fig. Test Comparison b/w actual and calculated trajectory </p>
+<p align="center"> Fig.7 Test Comparison b/w actual and calculated trajectory </p>
 <br><br><br>
 
 
@@ -109,7 +109,7 @@ The result of the QT GUI plotter can be seen as below
 <br><br>
 
 <p align="center"><img src="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/QT_GPS_GUI/QT_Simulation.gif" title="Full Campus map "></p>
-<p align="center"> Fig. QT GUI GPS plotter </p>
+<p align="center"> Fig.8  QT GUI GPS plotter </p>
 <br><br><br>
 
 
