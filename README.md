@@ -18,11 +18,11 @@ For this we would need rosbags with both "3D point cloud" and "IMU data" using w
 
 <b>Step 1: Creation of a .pbstream file from the ros bag </b>
 
-Since we did not have a proper /tf tree, we decided to use a urdf file description for providing the frames required by the cartographer. The URDF used by us can be found in the config files folder of the repo. This file was made assuming the dimentions of the Mahindra E20 vehicle, this needs to be modified according to the proper dimentions with proper links. 
+Since we did not have a proper /tf tree, we decided to use a <a href="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/Config_files/backpack_3d.urdf">urdf file</a>  description for providing the frames required by the cartographer. The URDF used by us can be found in the config files folder of the repo. This file was made assuming the dimentions of the Mahindra E20 vehicle, this needs to be modified according to the proper dimentions with proper links. 
 
 We used the launch file test.launch for the first process of generation of .pbstream file. The settings for this launch file were made using insights from the working configurations as uploaded by a user <a href="https://drive.google.com/file/d/0B1KZT92BcdVNaHdkZVp5bkI0WDQ/view?resourcekey=0-n3jnlkSym2P7Hx3RLsqQJw">here</a>
 
-Test.launch was made specifically for our use and all the changes made can be seen <a href="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/Config_files/Launch_file_edits.docx">here </a>
+<a href="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/Config_files/test.launch">test.launch </a> was made specifically for our use and all the changes made can be seen <a href="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/Config_files/Launch_file_edits.docx">here </a>
 
 
 Once the launch file was ready run the following to generate the pbstream file
@@ -39,13 +39,13 @@ Upon obtaining a .pbstream file, a point cloud file (.ply) can be obtained by ru
 $ roslaunch cartographer_ros assets_writer_backpack_4d.launch bag_filenames:=/path/to/your_bag.bag pose_graph_filename:=/path/to/your_bag.pbstream\
 The .ply file (along with some image files) will be generated in the same folder as the bag and .pbstream file.
 
-We had created our custom lua file for the generation of the point cloud file, the steps followed can be found here (insert link)
+We had created our custom  <a href="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/Config_files/assets_writer_backpack_4d.lua">lua file</a> for the generation of the point cloud file, the steps followed can be found <a href="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/Config_files/Lua_file_updates.docx">here </a> 
 <br>
 Once the script was run the respective maps and ply files were successfuly created
 
 <b><h1>Results</h1></b>
 
-The following maps were generated after running the scripts on a rosbag file, which was created by the E20 vehicle going around the campus.
+The following maps were generated after running the scripts on a <a href="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/Config_files/Lua_file_updates.docx">rosbag file </a>, which was created by the E20 vehicle going around the campus.
 
 The blue line shows the trajectory the vehicle took while transversing the campus roads.
 <br><br>
