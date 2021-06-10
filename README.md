@@ -45,7 +45,7 @@ Once the script was run the respective maps and ply files were successfuly creat
 
 <b><h1>Results</h1></b>
 
-The following maps were generated after running the scripts on a <a href="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/Config_files/Lua_file_updates.docx">rosbag file </a>, which was created by the E20 vehicle going around the campus.
+The following maps were generated after running the scripts on a <a href="https://drive.google.com/drive/folders/1gcnSY-3-MtDLCSeKLohcuVjIYoow_NfD?usp=sharing">rosbag file </a>, which was created by the E20 vehicle going around the campus.
 
 The blue line shows the trajectory the vehicle took while transversing the campus roads.
 <br><br>
@@ -74,10 +74,17 @@ We stiched all the maps together to get the complete path followed by the car on
 
 <p align="center"><img src="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/Images/Other%20tests/Full%20map.png" title="Full Campus map "></p>
 <p align="center"> Fig.4 Full Campus map </p>
+<br><br><br>
 
 
+<b><h1>Qt based Sensor Analysis Desktop Application</h1></b>
 
-
+We built a PyQt5 based sensor data visualization GUI for real-time analysis of various
+sensors information. We used GPS coordinates in (Latitude, Longitude) and converted it
+into Universal Transverse Mercator (UTM) system coordinates for accurate plotting of
+points on Google Map of IIT Delhi Campus. We did the same using utm libraries in Python
+and incorporated the Python application with ROS for acquiring the Pixhawk GPS
+coordinates and plotting it using a PyQt5 application on a Matplotlib window.
 
 
 
