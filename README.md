@@ -77,6 +77,8 @@ We stiched all the maps together to get the complete path followed by the car on
 <br><br><br>
 
 
+<b><h1>Google Cartographer Localization</h1></b>
+
 <b><h1>Qt based Sensor Analysis Desktop Application</h1></b>
 
 We built a PyQt5 based sensor data visualization GUI for real-time analysis of various
@@ -84,7 +86,16 @@ sensors information. We used GPS coordinates in (Latitude, Longitude) and conver
 into Universal Transverse Mercator (UTM) system coordinates for accurate plotting of
 points on Google Map of IIT Delhi Campus. We did the same using utm libraries in Python
 and incorporated the Python application with ROS for acquiring the Pixhawk GPS
-coordinates and plotting it using a PyQt5 application on a Matplotlib window.
+coordinates and plotting it using a PyQt5 application on a Matplotlib window.In order to analyse the accuracy of the data, we used the Google
+Map of the specific parts of the campus set to maximum zoom level as the background tile.
+The result of the QT GUI plotter can be seen as below
+<br><br>
+
+<p align="center"><img src="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/QT_GPS_GUI/QT_Simulation.gif" title="Full Campus map "></p>
+<p align="center"> Fig. QT GUI GPS plotter </p>
+<br><br><br>
+
+
 
 
 
