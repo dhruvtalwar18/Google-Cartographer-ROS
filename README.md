@@ -79,6 +79,24 @@ We stiched all the maps together to get the complete path followed by the car on
 
 <b><h1>Google Cartographer Localization</h1></b>
 
+We also tested Cartographer’s inbuilt localisation package on the bag files for offline
+localisation of the car in the 3D maps. The blue coloured trajectories denote the actual
+trajectory of the car during the course of the experiment and the green trajectory
+represents the output trajectory of the Cartographer localisation package. We were also
+able to obtain the coordinates of the points of the trajectory as it is generated along the
+way with respect to the map frame.
+
+<p align="center"><img src="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/QT_GPS_GUI/QT_Simulation.gif" title="Full Campus map "></p>
+<p align="center"> Fig. QT GUI GPS plotter </p>
+<br><br><br>
+
+<p align="center"><img src="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/Images/Comparison%20of%20Actual%20Trajectory%20and%20Calculated%20Trajectory%20of%20the%20car%20in%20Rviz.PNG
+" title="Test Comparison b/w actual and calculated trajectory "></p>
+<p align="center"> Fig. Test Comparison b/w actual and calculated trajectory </p>
+<br><br><br>
+
+
+
 <b><h1>Qt based Sensor Analysis Desktop Application</h1></b>
 
 We built a PyQt5 based sensor data visualization GUI for real-time analysis of various
