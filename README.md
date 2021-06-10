@@ -10,7 +10,7 @@ Final year thesis project on implementation of google cartographer to develop a 
 
 <b><h1>Installation and workspace setup</h1></b>
 
-We shall be using the Google cartographer ROS kinetic package for the same, the installation of the same can be seen here : https://google-cartographer-ros.readthedocs.io/en/latest/compilation.html
+We shall be using the Google cartographer ROS kinetic package for the same, the installation of the same can be seen <a href="https://google-cartographer-ros.readthedocs.io/en/latest/compilation.html">here </a>
 
 For this we would need rosbags with both "3D point cloud" and "IMU data" using which only we can deploy the package. The package configeration files need to be changed according to the topics we would be using. The following shows what all changes need to be done to get a map. 
 
@@ -20,9 +20,9 @@ For this we would need rosbags with both "3D point cloud" and "IMU data" using w
 
 Since we did not have a proper /tf tree, we decided to use a urdf file description for providing the frames required by the cartographer. The URDF used by us can be found in the config files folder of the repo. This file was made assuming the dimentions of the Mahindra E20 vehicle, this needs to be modified according to the proper dimentions with proper links. 
 
-We used the launch file test.launch for the first process of generation of .pbstream file. The settings for this launch file were made using insights from the working configurations as uploaded by a user here.(https://drive.google.com/file/d/0B1KZT92BcdVNaHdkZVp5bkI0WDQ/view?resourcekey=0-n3jnlkSym2P7Hx3RLsqQJw)
+We used the launch file test.launch for the first process of generation of .pbstream file. The settings for this launch file were made using insights from the working configurations as uploaded by a user <a href="https://drive.google.com/file/d/0B1KZT92BcdVNaHdkZVp5bkI0WDQ/view?resourcekey=0-n3jnlkSym2P7Hx3RLsqQJw">here</a>
 
-Test.launch was made specifically for our use and all the changes made can be seen here(insert link)\
+Test.launch was made specifically for our use and all the changes made can be seen <a href="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/Config_files/Launch_file_edits.docx">here </a>
 
 
 Once the launch file was ready run the following to generate the pbstream file
