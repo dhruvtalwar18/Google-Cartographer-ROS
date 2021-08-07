@@ -27,7 +27,11 @@ We used the launch file test.launch for the first process of generation of .pbst
 
 Once the launch file was ready run the following to generate the pbstream file
 
+```
 $ roslaunch cartographer_ros test.launch bag_filename:=/path/to/your_bag.bag \
+
+```
+
 <br><br>
 
 
@@ -36,7 +40,10 @@ $ roslaunch cartographer_ros test.launch bag_filename:=/path/to/your_bag.bag \
 
 Upon obtaining a .pbstream file, a point cloud file (.ply) can be obtained by running:
 
+```
 $ roslaunch cartographer_ros assets_writer_backpack_4d.launch bag_filenames:=/path/to/your_bag.bag pose_graph_filename:=/path/to/your_bag.pbstream\
+
+```
 The .ply file (along with some image files) will be generated in the same folder as the bag and .pbstream file.
 
 We had created our custom  <a href="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/Config_files/assets_writer_backpack_4d.lua">lua file</a> for the generation of the point cloud file, the steps followed can be found <a href="https://github.com/dhruvtalwar18/Google-Cartographer-ROS/blob/main/Config_files/Lua_file_updates.docx">here </a> 
