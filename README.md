@@ -32,10 +32,6 @@ $ roslaunch cartographer_ros test.launch bag_filename:=/path/to/your_bag.bag \
 
 ```
 
-<br><br>
-
-
-
 <b> Step 2: Creation of maps from the generated .pbstream file </b>
 
 Upon obtaining a .pbstream file, a point cloud file (.ply) can be obtained by running:
